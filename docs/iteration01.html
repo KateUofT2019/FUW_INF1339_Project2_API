@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script> 
+        <script>
+            function getAPIkey_go() {
+                var APIkey = document.getElementById("myAPIkey").value
+                document.getElementById("output_text").innerHTML = 'tBmzonQ2i5ZW6n8qcmxsP4oGxeVHljQV'
+            }
+            
+            function myNYTapp(){
+                var APIkey = 'tBmzonQ2i5ZW6n8qcmxsP4oGxeVHljQV'
+            }
+        </script>
+    </head>
+    <body>
+        <h3>Get user input</h3>
+        <input type = "text" id = "myAPIkey" value= 'your API key'>
+        <button type = "button" onclick="getAPIkey_go()">Get API key & Go</button>
+        <p id = "output_text"></p>
+    </body>
+</html>
